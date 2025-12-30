@@ -1,6 +1,5 @@
-# Scope of Work Template
-
-## Workflow Automation Development Project
+# Scope of Work (SOW)
+## ITA Media GmbH – KI & RAG Delivery
 
 ---
 
@@ -8,264 +7,128 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                           SCOPE OF WORK                                      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Project: [PROJECT NAME]                                                     ║
-║  Client:  [CLIENT COMPANY]                                                   ║
-║  Date:    [DATE]                                                             ║
+║  Project: ________________________________                                   ║
+║  Client:  ________________________________                                   ║
+║  Date:    ________________________________                                   ║
 ║  Version: 1.0                                                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 1. Project Overview
+## 1. Projektüberblick
 
-### 1.1 Background
+### 1.1 Kontext
+Kurze Beschreibung des Unternehmens, der Prozesse und der Ausgangslage.
 
-[2-3 sentences about the client's business and context]
+### 1.2 Problemstellung
+Welche Prozesse, Wissenslücken oder Qualitätsprobleme sollen adressiert werden?
 
-### 1.2 Problem Statement
-
-[Describe the specific problem or challenge this project addresses]
-
-### 1.3 Solution Summary
-
-[High-level description of what will be built]
+### 1.3 Lösungsansatz
+ITA Media liefert eine KI‑gestützte Lösung mit klarer Governance, Messbarkeit und DSGVO‑Konformität. Der Fokus liegt auf RAG‑Systemen, Prozessautomatisierung und Content‑Qualität.
 
 ---
 
-## 2. Objectives
+## 2. Ziele & KPIs
 
-The primary objectives of this project are:
-
-1. **[Objective 1]**: [Description]
-2. **[Objective 2]**: [Description]
-3. **[Objective 3]**: [Description]
-
----
-
-## 3. Deliverables
-
-### 3.1 Workflow 1: [Workflow Name]
-
-| Attribute        | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| **Purpose**      | [What this workflow accomplishes]                |
-| **Trigger**      | [How/when it starts - webhook, schedule, manual] |
-| **Input**        | [What data comes in]                             |
-| **Process**      | [What happens to the data]                       |
-| **Output**       | [What actions are taken / results produced]      |
-| **Integrations** | [Systems connected]                              |
-
-### 3.2 Workflow 2: [Workflow Name]
-
-| Attribute        | Description                       |
-| ---------------- | --------------------------------- |
-| **Purpose**      | [What this workflow accomplishes] |
-| **Trigger**      | [How/when it starts]              |
-| **Input**        | [What data comes in]              |
-| **Process**      | [What happens to the data]        |
-| **Output**       | [What actions are taken]          |
-| **Integrations** | [Systems connected]               |
-
-### 3.3 Documentation Package
-
-- [ ] Workflow walkthrough video (Loom)
-- [ ] Technical documentation
-- [ ] Credential setup guide
-- [ ] FAQ document
-- [ ] Workflow exports (JSON backups)
-
-### 3.4 Training
-
-- [ ] Handover call ([X] minutes)
-- [ ] [Additional training if included]
+| Ziel | KPI | Messlogik | Zielwert | Verantwortlich |
+|------|-----|-----------|----------|----------------|
+| Effizienz steigern | Zeitersparnis pro Prozess | Baseline vor Projekt, Vergleich nach Go‑Live | __________ | __________ |
+| Qualität sichern | QA‑Score / Fehlerrate | QA‑Testplan + Produktionsmonitoring | __________ | __________ |
+| Nutzerakzeptanz | Zufriedenheit/Adoption | Feedback‑Score, Nutzungsquote | __________ | __________ |
+| Kostenkontrolle | Cost per Request | Token/Request‑Logging | __________ | __________ |
 
 ---
 
-## 4. Success Criteria
+## 3. Leistungsumfang
 
-The project will be considered complete when:
+### 3.1 KI/RAG‑Leistungen
+- RAG‑Design inkl. Retrieval‑Strategie und Vektordatenbank
+- Prompt‑Engineering & Modellkonfiguration (Versionierung inkl. Freigaben)
+- Qualitätsmetriken (Precision/Recall, Halluzinationsrate)
+- Fallback‑ und Guardrail‑Mechanismen
 
-| #   | Criterion   | Measurement        |
-| --- | ----------- | ------------------ |
-| 1   | [Criterion] | [How we'll verify] |
-| 2   | [Criterion] | [How we'll verify] |
-| 3   | [Criterion] | [How we'll verify] |
-| 4   | [Criterion] | [How we'll verify] |
+### 3.2 Automatisierung & Integration
+- Anbindung an Datenquellen und Zielsysteme
+- Prozessautomatisierung mit klaren Triggern, Inputs, Outputs
+- Dokumentation der Datenflüsse und Abhängigkeiten
 
----
-
-## 5. What's NOT Included
-
-To maintain clear scope boundaries, the following are explicitly excluded:
-
-- [ ] [Exclusion 1 - e.g., "Additional workflows beyond those listed"]
-- [ ] [Exclusion 2 - e.g., "Integration with systems not specified"]
-- [ ] [Exclusion 3 - e.g., "Custom UI/dashboard development"]
-- [ ] [Exclusion 4 - e.g., "Data migration"]
-- [ ] [Exclusion 5 - e.g., "Ongoing maintenance (quoted separately)"]
-
-_Any items not explicitly listed in Section 3 are considered out of scope._
+### 3.3 Dokumentation & Enablement
+- Technische Dokumentation
+- Betriebs‑ und Monitoring‑Guide
+- Handover‑Workshop
 
 ---
 
-## 6. Client Responsibilities
+## 4. Datenquellen & Governance
 
-For successful project delivery, Client agrees to provide:
+| Datenquelle | Datenklasse | Zugriff | Aufbewahrung | Verantwortlich |
+|------------|-------------|---------|--------------|----------------|
+| __________ | öffentlich/intern/vertraulich | readonly/readwrite | __________ | __________ |
+| __________ | öffentlich/intern/vertraulich | readonly/readwrite | __________ | __________ |
 
-### 6.1 Access & Credentials
-
-- [ ] n8n environment (Client-owned account)
-- [ ] Admin access to required integrations
-- [ ] API credentials for connected services
-
-### 6.2 Information & Data
-
-- [ ] Sample data/examples for testing (minimum [X] examples)
-- [ ] Business rules and logic documentation
-- [ ] Brand/tone guidelines (if applicable)
-
-### 6.3 Availability
-
-- [ ] Respond to questions within 48 hours
-- [ ] Provide feedback within [X] business days
-- [ ] Attend scheduled calls and handover session
-- [ ] Designate decision-maker with authority to approve
-
-### 6.4 Technical Requirements
-
-- [ ] [Any specific technical requirements]
+Governance‑Regeln:
+- Datenklassifizierung dokumentiert
+- Zugriffskontrolle nach Least‑Privilege
+- Lösch‑ und Aufbewahrungsfristen definiert
+- Protokollierung von Zugriffen und Änderungen
 
 ---
 
-## 7. Timeline
+## 5. Security & DSGVO
 
-### 7.1 Project Phases
-
-| Phase           | Activities                                             | Duration       |
-| --------------- | ------------------------------------------------------ | -------------- |
-| **Setup**       | Kickoff, environment configuration, credential setup   | [X days/week]  |
-| **Development** | Build workflows, implement integrations, AI components | [X days/weeks] |
-| **Testing**     | Internal QA, client testing, refinements               | [X days/week]  |
-| **Delivery**    | Documentation, handover, go-live                       | [X days]       |
-
-### 7.2 Key Milestones
-
-| Milestone             | Target        |
-| --------------------- | ------------- |
-| Project Kickoff       | [Date/Week X] |
-| Development Complete  | [Date/Week X] |
-| Client Testing Begins | [Date/Week X] |
-| Handover & Go-Live    | [Date/Week X] |
-
-### 7.3 Dependencies
-
-Timeline assumes:
-
-- Timely client responses (within 48 hours)
-- All access/credentials provided by kickoff
-- No significant scope changes
-
-_Delays in client deliverables may impact timeline proportionally._
+- Datenschutzfolgeabschätzung (falls erforderlich)
+- DPA zwischen Parteien (sofern notwendig)
+- Sicherheitsmaßnahmen: TLS, Zugriffskontrollen, Audit‑Logs
+- Datenverarbeitung: On‑Prem/Cloud (Standort dokumentieren)
+- Incident‑Prozess und Ansprechpartner
 
 ---
 
-## 8. Investment
+## 6. Deliverables
 
-### 8.1 Project Fee
-
-| Description                  | Amount       |
-| ---------------------------- | ------------ |
-| Workflow Development         | $[X,XXX]     |
-| Documentation & Training     | Included     |
-| [X] Days Post-Launch Support | Included     |
-| **Total Project Investment** | **$[X,XXX]** |
-
-### 8.2 Payment Schedule
-
-| Payment                 | Amount         | Due                     |
-| ----------------------- | -------------- | ----------------------- |
-| Deposit (to begin work) | $[X,XXX] (50%) | Upon agreement signing  |
-| Final Payment           | $[X,XXX] (50%) | Upon project completion |
-
-### 8.3 Payment Terms
-
-- Invoices due Net [15/30]
-- Accepted payment methods: [Bank Transfer / Credit Card / etc.]
-- Late payments subject to [X]% monthly fee
+| Deliverable | Beschreibung | Abnahme |
+|-------------|--------------|---------|
+| RAG‑Prototyp / Lösung | Retrieval‑Pipeline, Modell‑Integration | Ja/Nein |
+| KPI‑Dashboard | Messlogik & Reporting | Ja/Nein |
+| Dokumentation | Betrieb, Security, Datenflüsse | Ja/Nein |
+| Handover & Training | Workshop + Übergabe | Ja/Nein |
 
 ---
 
-## 9. Optional: Ongoing Maintenance
+## 7. Out of Scope (klar abgegrenzt)
 
-### Maintenance Retainer (Optional)
-
-| Tier     | Monthly Fee  | Includes                                     |
-| -------- | ------------ | -------------------------------------------- |
-| Basic    | $[XXX]/month | Monitoring, bug fixes, [X] hours support     |
-| Standard | $[XXX]/month | Above + minor updates, monthly check-in      |
-| Premium  | $[XXX]/month | Above + priority support, [X] hours dev time |
-
-_Retainer begins after project completion if selected._
+- Entwicklung von nicht spezifizierten Integrationen
+- Datenmigration außerhalb vereinbarter Quellen
+- Betrieb externer Systeme durch ITA Media (keine Hosting‑Übernahme)
+- Feature‑Requests außerhalb der definierten Ziele/KPIs
 
 ---
 
-## 10. Terms & Conditions
+## 8. Zeitplan (Phasenlogik)
 
-### 10.1 Change Requests
-
-Changes to scope after signing will be documented and quoted separately. No out-of-scope work will be performed without written approval.
-
-### 10.2 Intellectual Property
-
-Upon full payment, Client owns all deliverables created specifically for this project. Provider retains rights to reusable templates, patterns, and generic components.
-
-### 10.3 Confidentiality
-
-Both parties agree to keep project details and any shared information confidential.
-
-### 10.4 Limitation of Liability
-
-Provider's liability is limited to the total fees paid for this project.
-
-### 10.5 Termination
-
-Either party may terminate with [14/30] days written notice. Client pays for all work completed to date.
+| Phase | Zeitraum | Inhalt |
+|------|----------|--------|
+| 0–30 Tage | Analyse & Strategie | Use‑Cases, KPIs, Governance, Scope |
+| 30–90 Tage | Prototyping & Validierung | RAG/LLM‑Prototyp, Tests, KPI‑Vergleich |
+| 90–180 Tage | Implementierung & Skalierung | Produktion, Monitoring, Handover |
 
 ---
 
-## 11. Acceptance
+## 9. Verantwortlichkeiten
 
-By signing below, both parties agree to the terms outlined in this Scope of Work.
+**Client:** Daten, Freigaben, Zugang zu Systemen, Feedback.
 
-### Client
-
-|           |                                    |
-| --------- | ---------------------------------- |
-| Signature | ****************\_**************** |
-| Name      | ****************\_**************** |
-| Title     | ****************\_**************** |
-| Date      | ****************\_**************** |
-
-### Provider
-
-|           |                                    |
-| --------- | ---------------------------------- |
-| Signature | ****************\_**************** |
-| Name      | ****************\_**************** |
-| Title     | ****************\_**************** |
-| Date      | ****************\_**************** |
+**ITA Media:** Architektur, Umsetzung, Tests, Dokumentation, Handover.
 
 ---
 
-## Appendix A: Technical Requirements
+## 10. Abnahme
 
-[Add any specific technical details, API documentation links, or system requirements]
+Durch Unterschrift bestätigen beide Parteien Scope, KPIs und Abgrenzung.
 
-## Appendix B: Sample Data Specifications
-
-[Describe the format and type of sample data needed from client]
-
----
-
-_Document Version: 1.0 | Last Updated: [Date]_
+| | |
+|-|-|
+| Client | ________________________________ |
+| ITA Media GmbH | ________________________________ |
+| Datum | ________________________________ |
